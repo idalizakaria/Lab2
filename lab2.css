@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri";
+}
+body {
+    margin: 13px;
+  }
+
+#ROW1 {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    height: 1cm;
+}
+#ROW11 {
+   
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+}
+
+#ROW111 {
+    text-align: right;
+    font-weight: bold;
+}
+
+.col-8 {
+    height: 3cm;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+img {
+    margin: 0;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+
+.col-1 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+    img {
+        display: none;
+    }
+}
